@@ -8,7 +8,7 @@ function Home() {
 
   function submit(e) {
     e.preventDefault();
-    if (email == "eduardo.lino@pucpr.br" && password == "123456") {
+    if (email === "eduardo.lino@pucpr.br" && password === "123456") {
       setText("Acessado com sucesso!");
     } else {
       setText("Usuário ou senha incorretos!");

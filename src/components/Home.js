@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Home.css";
 
 function Home() {
   const [email, setEmail] = useState(null);
@@ -17,6 +18,7 @@ function Home() {
           placeholder="Email"
           onChange={(e) => setEmail(e.target.value)}
         />
+        <br />
         <input
           type="password"
           id="password"
@@ -25,6 +27,7 @@ function Home() {
           required
           onChange={(e) => setPassword(e.target.value)}
         />
+        <br />
         <button>Acessar</button>
       </form>
 
